@@ -43,7 +43,7 @@ class NewVisitorTest(unittest.TestCase):
         
         table = self.browser.find_element(By.ID, 'id_list_table')
         rows = table.find_elements(By.TAG_NAME, 'tr')
-        self.check_for_row_in_list_table('1: Buy flowsers')
+        self.check_for_row_in_list_table('1: Buy flowers')
         self.check_for_row_in_list_table('2: Give a gift to Lisi')
         
         self.fail('Finish the test!')
